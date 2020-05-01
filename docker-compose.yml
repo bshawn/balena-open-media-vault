@@ -1,0 +1,7 @@
+version: "2.1"
+services:
+  open-media-vault:
+    build: open-media-vault
+    ports:
+      - "80:80"
+    privileged: true
